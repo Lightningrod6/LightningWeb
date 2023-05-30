@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+<script src="https://kit.fontawesome.com/7ee2b374e8.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="../../css/style.css">
+  <title>Lightning</title>
+</head>
+<body>
+	<h1 class="header-thing">Lightning Web</h1>
+	<h2 class="header-main">Lightning is <<span id="typing-element"></span>></h2>
+	<h2 class="social-media-icons"><span id="social-media-icons"></span></h2>
+	<h2 class="directory-redirect"><a href="directory.html">Directory</a><i class="fa-regular fa-arrow-right"></i></h2>
+	<script>
+	var typed = new Typed('#typing-element', {
+		strings: ['^500a developer', '^500an artist', '^500a writer'],
+		typeSpeed: 50,
+		loop: true,
+		backSpeed: 50,
+		showCursor: false,
+		cursorChar: ">",
+		
+	});
+	</script>
+	
+	<script>
+		var options = {
+			strings: [
+				'<a href="https://github.com"><i class="fa-brands fa-github fa-2xl"></a></i><a href="https://twitter.com/lightningrod654"><i class="fa-brands fa-twitter fa-2xl"></i></a>',
+			],
+			typeSpeed: 40,
+			loop: false,
+			showCursor: false
+		};
+		
+		var typed = new Typed('#social-media-icons', options);
+		
+	</script>
+</body>
+</html>

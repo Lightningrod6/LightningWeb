@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+.header-thing {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+.header-main {
+	text-align: center;
+	padding-top: 200px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+}
+
+.social-media-icons {
+	text-align: center;
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color:white;
+}
+
+.background-text {
+	height: 150px;
+	width: 150px;
+	background-color: white;
+	border-radius: 10px;
+	
+}
+
+.header-directory-main {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+.secondary-directory {
+	text-align: center;
+	word-spacing: 30px;
+	font-family: 'Chakra Petch', sans-serif;
+	color: white;
+	font-size: 40px;
+}
+
+body {
+	background-color: black;
+}
+
+.directory-redirect {
+	color: white;
+	text-align: center;
+	padding-bottom: 300px;
+	font-family: 'Chivo Mono', monospace;
+	font-size: 15px;
+}
+
+.about-me {
+	animation: intro 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation-delay: 2.2s
+}
+
+.projects {
+	animation: intro 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation-delay: 2.5s
+}
+
+.intrests {
+	animation: intro 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation-delay: 2.8s
+}
+
+.education {
+	animation: intro 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation-delay: 3.1s
+}
+@keyframes intro {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+h3 {
+	padding-top: 500px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.secondary-directory:hover {
+	animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes slide-fwd-center {
+  0% {
+    transform: translateZ(0);
+  }
+  100% {
+    transform: translateZ(160px);
+  }
+}
